@@ -7,4 +7,4 @@ Inter-integreated Circuit (I2C)
 General Purpose Input / Output (GPIO)
 Univeral Asynchronous/Synchronous Receive & Transmit (USART)
 Real-Time-Clock (RTC)
-![]stm32f4discovery-pinout.png
+![]image/stm32f4discovery-pinout.png
