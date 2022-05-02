@@ -2,7 +2,7 @@
  * stm32f407xx_gpio_driver.c
  *
  *  Created on: 13 Dec 2021
- *      Author: mucah
+ *      Author: Mücahit DEMIRCI
  */
 #include "stm32f407xx_gpio_driver.h"
 
@@ -248,7 +248,7 @@ uint8_t GPIO_ReadFromInputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber)
 /*********************************************************************
  * @fn      		  - GPIO_ReadFromInputPort
  *
- * @brief             - reading from input port
+ * @brief             - This function is used for reading from input port
  *
  * @param[in]         - base address of the GPIO peripheral
  * @param[in]         - ENABLE or DISABLE macros
@@ -270,7 +270,7 @@ uint16_t GPIO_ReadFromInputPort(GPIO_RegDef_t *pGPIOx)
 /*********************************************************************
  * @fn      		  - GPIO_WriteToOutputPin
  *
- * @brief             - This function writes to output pin
+ * @brief             - This function is used to write to output pin
  *
  * @param[in]         - base address of the GPIO peripheral
  * @param[in]         - ENABLE or DISABLE macros
@@ -300,7 +300,7 @@ void GPIO_WriteToOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber, uint8_t Val
 /*********************************************************************
  * @fn      		  - GPIO_WriteToOutputPort
  *
- * @brief             - This function writes to output port
+ * @brief             - This function is used to write to output-port
  *
  * @param[in]         - base address of the GPIO peripheral
  * @param[in]         - ENABLE or DISABLE macros
