@@ -1,8 +1,8 @@
 /*
  * stm32f407xx_i2c_driver.c
  *
- *  Created on: Feb 20, 2019
- *      Author: mucoo
+ *  Created on: Dec 20, 2021
+ *      Author: Mücahit DEMIRCI
  */
 
 #include "stm32f407xx_i2c_driver.h"
@@ -175,7 +175,7 @@ void I2C_PeriClockControl(I2C_RegDef_t *pI2Cx, uint8_t EnorDi)
 /*********************************************************************
  * @fn      		  - I2C_Init
  *
- * @brief             -
+ * @brief             -	This function is used to initialize necessary parameters
  *
  * @param[in]         -
  * @param[in]         -
@@ -550,7 +550,7 @@ uint8_t I2C_MasterSendDataIT(I2C_Handle_t *pI2CHandle,uint8_t *pTxBuffer, uint32
 /*********************************************************************
  * @fn      		  - I2C_MasterReceiveDataIT
  *
- * @brief             -
+ * @brief             - Interrupt-based master receive data function prototype
  *
  * @param[in]         -
  * @param[in]         -
